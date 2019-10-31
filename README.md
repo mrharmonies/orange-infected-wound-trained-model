@@ -1,6 +1,6 @@
 # introduction
 
-orange-infected-wound-trained-model is a supervised trained Neural Network model, trained to categorize images of wound as **infected wound** or **clean wound**. This trained model is to be use within **Orange Data Mining program**. 
+orange-infected-wound-trained-model is a supervised trained Neural Network model, trained to classify images of wound as **infected wound** or **clean wound**. This trained model is to be use within **Orange Data Mining program**. 
 
 # requirements
 
@@ -13,7 +13,7 @@ Open Orange Data Mining program, then drag **"Import Images", "Image Embedding",
 
 ![](https://drive.google.com/uc?id=1uzCtVDHhOGA3aZ4BvBuQkKY3tHPdpMjW)
 
-Then double click **"Import Images"** and select the folder containing the wound images you want to categorize.
+Then double click **"Import Images"** and select the folder containing the wound images you want to classify.
 
 ![](https://drive.google.com/uc?id=1QuinXbpG_Vv9m1w2SzSKPgXZ5dK2xUlb)
 
