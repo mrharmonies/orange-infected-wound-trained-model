@@ -4,34 +4,29 @@
 
 orange-infected-wound-trained-model is a supervised trained Neural Network model, trained to categorize images of wound as **infected wound** or **clean wound**. This trained model is to be use within **Orange Data Mining program**. Simply load 
 
-### Markdown
+# usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Open Orange Data Mining program, then drag **"Import Images", "Image Embedding", "Load Model", "Predictions" and "Image Viewer"** elements into canvas and **connect the elements in these particular order**
 
-```markdown
-Syntax highlighted code block
+![](https://drive.google.com/uc?id=1uzCtVDHhOGA3aZ4BvBuQkKY3tHPdpMjW)
 
-# Header 1
-## Header 2
-### Header 3
+Then double click **"Import Images"** and select the folder containing the wound images you want to categorize.
 
-- Bulleted
-- List
+![](https://drive.google.com/uc?id=1QuinXbpG_Vv9m1w2SzSKPgXZ5dK2xUlb)
 
-1. Numbered
-2. List
+Double click **"Image Embedding"** and select **"SqueezeNet (local)"** for the **Embedder**
 
-**Bold** and _Italic_ and `Code` text
+![](https://drive.google.com/uc?id=1M4lN5TI6WF0O_pDjjQI9NvJief6Y4D4I)
 
-[Link](url) and ![Image](src)
-```
+Now its time to load the trained model. Download "wound nn.pkcls" from this repository then double click "Load Model". Browse for the file that you've just downloaded
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![](https://drive.google.com/uc?id=11_eLgmZ01FOu-UodVqaheUBYI3w3x0_A)
 
-### Jekyll Themes
+Orange Data Mining program will now evaluate the embedded wound images that you've selected. Double click on Predictions. Predictions will show you the neural network confidence. In this case, the value for infected and clean wound is 1 (means full confidence)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrharmonies/orange-infected-wound-trained-model/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![](https://drive.google.com/uc?id=1KiPK_vCbUYAIYztQ8jJmBwfkbDV4Dfs2)
 
-### Support or Contact
+Double click on Image Viewer to view the images. Select "Neural Network" from "Title Attribute" to view the Neural Network result. Notice the Neural Network result is displayed under the images.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![](https://drive.google.com/uc?id=1KyJ579p29zOeE0X3QZ89j7216c2muzUY)
+
