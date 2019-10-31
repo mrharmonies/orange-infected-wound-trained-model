@@ -1,8 +1,6 @@
-## Welcome to orange-infected-wound-trained-model GitHub Pages
-
 # introduction
 
-orange-infected-wound-trained-model is a supervised trained Neural Network model, trained to categorize images of wound as **infected wound** or **clean wound**. This trained model is to be use within **Orange Data Mining program**. Simply load 
+orange-infected-wound-trained-model is a supervised trained Neural Network model, trained to categorize images of wound as **infected wound** or **clean wound**. This trained model is to be use within **Orange Data Mining program**. 
 
 # usage
 
