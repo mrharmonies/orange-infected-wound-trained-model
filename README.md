@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to orange-infected-wound-trained-model GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mrharmonies/orange-infected-wound-trained-model/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+orange-infected-wound-trained-model is a supervised trained Neural Network model, trained to categorize images of wound as **infected wound** or **clean wound**. This trained model is to be use within **Orange Data Mining program**. Simply load 
 
 ### Markdown
 
