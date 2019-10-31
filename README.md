@@ -18,15 +18,15 @@ Double click **"Image Embedding"** and select **"SqueezeNet (local)"** for the *
 
 ![](https://drive.google.com/uc?id=1M4lN5TI6WF0O_pDjjQI9NvJief6Y4D4I)
 
-Now its time to load the trained model. Download "wound nn.pkcls" from this repository then double click "Load Model". Browse for the file that you've just downloaded
+Now its time to load the trained model. Download **"wound nn.pkcls"** from this repository then double click **"Load Model"**. Browse for the file that you've just downloaded
 
 ![](https://drive.google.com/uc?id=11_eLgmZ01FOu-UodVqaheUBYI3w3x0_A)
 
-Orange Data Mining program will now evaluate the embedded wound images that you've selected. Double click on Predictions. Predictions will show you the neural network confidence. In this case, the value for infected and clean wound is 1 (means full confidence)
+Orange Data Mining program will now evaluate the embedded wound images that you've selected. Double click on **"Predictions"**. Predictions will show you the neural network prediction **confidence**. In this case, the value for infected and clean wound is 1 (means full confidence)
 
 ![](https://drive.google.com/uc?id=1KiPK_vCbUYAIYztQ8jJmBwfkbDV4Dfs2)
 
-Double click on Image Viewer to view the images. Select "Neural Network" from "Title Attribute" to view the Neural Network result. Notice the Neural Network result is displayed under the images.
+Double click on **Image Viewer** to view the images. Select **"Neural Network"** from **"Title Attribute"** to view the Neural Network result. Notice the Neural Network result is **displayed under the images**.
 
 ![](https://drive.google.com/uc?id=1KyJ579p29zOeE0X3QZ89j7216c2muzUY)
 
